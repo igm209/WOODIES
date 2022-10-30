@@ -2,7 +2,7 @@ body{
     font-family: 'Nunito';
     display: grid;
 }
-nav{
+.navbar {
     display: flex;
     width: 1000px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ nav{
     margin-left: 8px;
 }
 
-nav ul{
+.navbar ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,7 +36,7 @@ nav ul{
     height: 30px;
 }
 
-nav ul li a{
+.navbar ul li a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -45,11 +45,11 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav ul li.active a{
+.navbar ul li.active a{
     color: #DAA520;
 }
 
-nav ul li a.button{
+.navbar ul li a.button{
     text-transform: uppercase;
     text-decoration: none;
     font-style: normal;
@@ -297,4 +297,20 @@ h2{
 #review {
     height: 280px;
     width: 384px;
+} 
+
+.testimony nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.testimony nav ul a{
+    text-decoration: none;
+    color: #000;
+}
+#next img {
+    transform: rotate(-180deg);
 }
