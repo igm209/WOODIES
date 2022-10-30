@@ -208,3 +208,36 @@ h2{
     grid-template-columns: 280px 56px 280px 56px 280px;
     grid-template-rows: 400px 40px 400px;
 }
+
+#color-bg3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    background: #F9BDBD;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+    align-items: center;
+}
+
+#color-bg3 p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 16px;
+}
+
+#sn-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background: none;
+    padding: 8px 19px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
