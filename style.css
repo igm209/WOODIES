@@ -198,3 +198,13 @@ h2{
     justify-content: center;
     display: flex;
 }
+
+#categories header{
+    align-items: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 280px 56px 280px 56px 280px;
+    grid-template-rows: 400px 40px 400px;
+}
