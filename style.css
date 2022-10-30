@@ -211,7 +211,7 @@ h2{
     grid-row-gap: 40px;
 }
 
-#color-bg3 {
+.color-bg3 {
     position: relative;
     width: 280px;
     height: 400px;
@@ -222,7 +222,7 @@ h2{
     align-items: center;
 }
 
-#color-bg3 p {
+.color-bg3 p {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 800;
@@ -230,6 +230,7 @@ h2{
     line-height: 33px;
     margin-left: 16px;
 }
+
 
 #sn-button {
     font-family: 'Nunito';
@@ -242,4 +243,12 @@ h2{
     padding: 8px 19px;
     margin-top: 10px;
     margin-left: 140px;
+}
+
+#tile2 {
+    background: #F7DEA6;
+}
+
+#tile3 {
+    background: #A8DCEC;
 }
