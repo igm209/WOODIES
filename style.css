@@ -64,7 +64,8 @@ nav ul li a.button{
 header{
     width: 1000px;
     margin: 0 auto;
-    display: flex;  
+    display: flex;
+    align-items: center;
 }
 
 header h1{
@@ -205,8 +206,8 @@ h2{
 
 .container3 {
     display: grid;
-    grid-template-columns: 280px 280px 280px;
-    grid-template-rows: 400px 400px;
+    grid-template-columns: repeat(3,280px);
+    grid-template-rows: repeat(2,400px);
     grid-column-gap: 56px;
     grid-row-gap: 40px;
 }
@@ -241,22 +242,42 @@ h2{
     border-radius: 4px;
     background: none;
     padding: 8px 19px;
-    margin-top: 10px;
-    margin-left: 140px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+    
 }
 
 #tile2 {
     background: #F7DEA6;
 }
 
+#tile2 img {
+    padding-left: 20%;
+}
+
 #tile3 {
     background: #A8DCEC;
+}
+
+#tile3 img {
+    padding-left: 20%;
 }
 
 #tile4 {
     background: #F9BDBD;
 }
 
+#tile4 img {
+    padding-left: 24%;
+}
+
 #tile5 {
     background: #F7DEA6;
+}
+
+#tile5 img {
+    padding-left: 8%;
+    padding-top: 15%;
 }
