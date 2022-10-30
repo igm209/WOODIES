@@ -105,7 +105,7 @@ header button{
     width: 280px;
     height: 400px;
     left: 180px;
-    top: 950px;
+    top: 970px;
     left: 400px;
     background: #F7DEA6;
     border-bottom-left-radius: 100px;
@@ -251,4 +251,12 @@ h2{
 
 #tile3 {
     background: #A8DCEC;
+}
+
+#tile4 {
+    background: #F9BDBD;
+}
+
+#tile5 {
+    background: #F7DEA6;
 }
