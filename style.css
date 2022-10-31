@@ -115,6 +115,10 @@ header button{
     z-index: -1;
 }
 
+.container img {
+    margin-top: 30px;
+}
+
 section{
     width: 1000px;
     margin: 0 auto;
@@ -393,4 +397,9 @@ footer p {
 
 footer img {
     margin-bottom: 20px;
+}
+
+table img{
+    z-index: -1;
+    
 }
