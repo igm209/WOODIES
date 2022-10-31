@@ -311,6 +311,40 @@ h2{
     text-decoration: none;
     color: #000;
 }
+
+#prev a {
+    color: #C4C4C4;
+}
 #next img {
     transform: rotate(-180deg);
+}
+
+.email {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 150px;
+}
+
+.email p {
+    font-size: 18px;
+    justify-content: center;
+}
+
+.email input {
+    border: 1px solid #DAA520;
+    border-radius: 2px;
+    padding: 8px 24px;
+    width: 330px;
+    z-index: 0;
+    margin-top: 32px;
+}
+
+.email button {
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 24px;
+    z-index: 1;
+    margin-left: -30px;
 }
