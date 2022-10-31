@@ -23,6 +23,7 @@ body{
     font-weight: bold;
     color: #3E3F43;
     margin-left: 8px;
+    letter-spacing: 0.25em;
 }
 
 .navbar ul{
@@ -337,6 +338,10 @@ h2{
     width: 330px;
     z-index: 0;
     margin-top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .email button {
@@ -347,4 +352,37 @@ h2{
     padding: 9px 24px;
     z-index: 1;
     margin-left: -30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer {
+    display: grid;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer-logo {
+    width: 250px;
+}
+
+#un-logo {
+    margin-left: 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+    float: left;
+}
+
+footer tr th a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8D8D8D;
+    text-decoration: none;
 }
