@@ -386,3 +386,11 @@ footer tr th a {
     color: #8D8D8D;
     text-decoration: none;
 }
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
